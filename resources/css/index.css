@@ -1,0 +1,42 @@
+div.hidden{
+	display:none;
+}
+#button-container div.active:hover{
+	cursor:auto;
+}
+#players{
+	float:left;
+	clear:both;
+}
+#players div.row{
+	width:250px;
+	height:35px;
+}
+#players label{
+	line-height:27px;
+}
+#players input{
+	float:right;
+	height:20px;
+}
+p.error-msg{
+	color:#FF0000;
+}
+#players div.startgame{
+	margin-top:10px;
+	float:left;
+	clear:both;
+}
+#players #btnStartGame{
+	background-color:#53CF53;
+	border:0px;
+	width:250px;
+	height:45px;
+	line-height:45px;
+	color:#FFF;
+	font-size:16px;
+}
+#players #btnStartGame:hover{
+	cursor:pointer;
+	background-color:#7DEB7D;
+}

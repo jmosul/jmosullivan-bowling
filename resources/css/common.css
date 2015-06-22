@@ -1,0 +1,52 @@
+/**
+ *	Common CSS for both pages
+ */
+
+body{
+	font-family:"Lucida Console", Times, sans-serif;
+}
+
+div.marRight{
+	margin-right: 10px; 
+}
+div.marTop{
+	margin-top: 10px; 
+}
+.hidden{
+	display:none;
+}
+div.button-container{
+	padding:-5px;
+	margin:10px 10px 0 0;
+}
+#button-container {
+	float:left;
+}
+#button-container div{
+	float:left;
+	background-color:#5555FF;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align:center;
+	color:#FFF;
+	display:inline-block;
+	font-size:1.5em;
+}
+#button-container div:hover{
+	cursor:pointer;
+	background-color:#9999FF;
+}
+#button-container div.hoversim, #button-container div.active{
+	background-color:#9999FF;
+}
+#button-container div.btnDisabled{
+	background-color:#9F9FFF;
+}
+#button-container div.btnDisabled:hover{
+	cursor:auto;
+	background-color:#9F9FFF;
+}
+#button-container div.invalid{
+	background-color:#FF9999;
+}
