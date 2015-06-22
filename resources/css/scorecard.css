@@ -1,0 +1,77 @@
+#newGame{
+	float:left;
+	text-align:center;
+	background-color:#44AEFF;
+	height:270px;
+}
+#newGame:hover{
+	cursor:pointer;
+	background-color:#73C2FF
+}
+#newGame p{
+	color:#FFF;
+	font-size:1.5em;
+	line-height:25px;
+	margin-top:110px;
+}
+div.button-container{
+	width:200px;
+}
+#scoresheet-container table, #scoresheet-container td{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+#scoresheet-container tr.current_player{
+	background-color:#FFE78E;
+}
+#scoresheet-container tr.winning_player{
+	background-color:#FFF98E;
+}
+#scoresheet-container tr.winning_player div.final_frame {
+	font-weight:bold;
+}
+#scoresheet-container th{
+	padding:7px 5px;
+}
+#scoresheet-container td.player_no{
+	padding:10px;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+}
+#scoresheet-container td.player_name{
+	min-width:160px;
+	padding:10px;
+}
+#scoresheet-container td.frame{
+	width:85px;
+	min-width:78px;
+	height:65px;
+}
+#scoresheet-container td.current_frame{
+	background-color:#89B0E6;
+}
+#scoresheet-container div.shot{
+	float:right;
+	height:25px;
+	width:25px;
+	position:relative;
+	bottom:18px;
+	left:1px;
+	border-width: 0 0 1px 1px;
+	border-style:solid;
+	border-color:black;
+}
+#scoresheet-container div.shot2{
+	display:none;
+}
+#scoresheet-container div.frame{
+	float:left;
+	font-size:1.5em;
+	width:50px;
+	height:30px;
+	margin-right:-50px;
+	position:relative;
+	top:17px;
+	left:8px;
+}
